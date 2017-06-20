@@ -7,5 +7,5 @@ const knex = createKnex({
     connection: 'postgres://@localhost:5432/nodejs_at_scale'
 })
 
-module.export knex
+module.exports = knex
 
